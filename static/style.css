@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#eaabef;
+}
+
+.container{
+    width:80%;
+    margin:100px auto;
+    text-align:center;
+}
+
+h1{
+    color:#000000;
+    padding:100px;
+    margin-bottom:100px;
+    text-align:center;
+}
+
+p{
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    background:#7b7979;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#cb54d4;
+}
+
+body{
+    background: linear-gradient(135deg,#4ec893,#5ba2d8);
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.result-card{
+    width:60%;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+    text-align:center;
+}
+
+.result-card h1{
+    color:#333;
+}
+
+.result-card h2{
+    color:green;
+}
+
+.result-card ul{
+    list-style:none;
+    padding:0;
+}
+
+.result-card li{
+    background:#f4f4f4;
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+}
+
+.progress{
+    width:100%;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+    margin:20px 0;
+}
+
+.progress-bar{
+    height:30px;
+    line-height:30px;
+    background:green;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
